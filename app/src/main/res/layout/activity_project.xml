@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity_project">
+
+    <restaurant>
+        <menu>
+            <category name="Appetizers">
+                <item>
+                    <name>Bruschetta</name>
+                    <description>Grilled bread rubbed with garlic and topped with tomatoes, basil, and olive oil.</description>
+                    <price>$8.99</price>
+                </item>
+                <item>
+                    <name>Caesar Salad</name>
+                    <description>Romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.</description>
+                    <price>$9.99</price>
+                </item>
+            </category>
+            <category name="Main Course">
+                <item>
+                    <name>Spaghetti Bolognese</name>
+                    <description>Spaghetti pasta with tomato and meat sauce.</description>
+                    <price>$12.99</price>
+                </item>
+                <item>
+                    <name>Grilled Salmon</name>
+                    <description>Fresh grilled salmon served with seasonal vegetables.</description>
+                    <price>$17.99</price>
+                </item>
+            </category>
+        </menu>
+        <orders>
+            <order id="1">
+                <table>5</table>
+                <items>
+                    <item>
+                        <name>Bruschetta</name>
+                        <quantity>2</quantity>
+                    </item>
+                    <item>
+                        <name>Spaghetti Bolognese</name>
+                        <quantity>1</quantity>
+                    </item>
+                </items>
+            </order>
+            <order id="2">
+                <table>3</table>
+                <items>
+                    <item>
+                        <name>Caesar Salad</name>
+                        <quantity>1</quantity>
+                    </item>
+                    <item>
+                        <name>Grilled Salmon</name>
+                        <quantity>2</quantity>
+                    </item>
+                </items>
+            </order>
+        </orders>
+    </restaurant>
+</LinearLayout>
+
